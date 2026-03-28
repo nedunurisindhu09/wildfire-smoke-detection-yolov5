@@ -1,2 +1,27 @@
-# wildfire-smoke-detection-yolov5
-Real-time wildfire smoke and fire detection system using YOLOv5, OpenCV, and Flask with edge deployment support on Raspberry Pi. Includes alert system (buzzer/LED) and live dashboard for monitoring.
+# 🔥 Real-Time Wildfire Smoke Detection using YOLOv5
+
+## 📌 Overview
+This project detects wildfire smoke and fire in real-time using YOLOv5 and computer vision.
+
+## 🚀 Features
+- Real-time detection using webcam or Pi camera
+- YOLOv5 deep learning model
+- Alert system using buzzer and LED
+- Flask-based live dashboard
+
+## 🧠 Tech Stack
+- Python
+- YOLOv5 (Ultralytics)
+- OpenCV
+- Flask
+- PyTorch
+- Raspberry Pi (optional)
+
+## 📂 Dataset
+- Kaggle Fire/Smoke dataset
+- Custom annotated images
+
+## ▶️ How to Run
+```bash
+pip install -r requirements.txt
+python app.py
